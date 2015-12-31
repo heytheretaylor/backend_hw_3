@@ -1,0 +1,7 @@
+Questions
+What is the difference between an HTTP GET request vs a POST request?
+
+GET - Requests data from a specified resource
+POST - Submits data to be processed to a specifed resource
+
+In rails GET and POST requests are handled by the Router
