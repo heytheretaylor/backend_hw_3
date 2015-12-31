@@ -1,0 +1,15 @@
+<h1>Hello</h1>
+<a href="/welcome"><h1>after</h1></a>
+
+<% collection = [1,2,3,4,5] %>
+<ul>
+	<% collection.each do |item| %>
+	<li>this item is number <%= item %></li>
+	<%end%>
+</ul>
+<br>
+<br>
+<br>
+<% params.each do |k,v|%>
+	<h1><%= k%> : <%= v%></h1>
+		<%end%>
